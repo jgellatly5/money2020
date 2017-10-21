@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package HACK; // The package should match your Application ID
+
+message Artifact {
+  bytes reference = 1;
+}
